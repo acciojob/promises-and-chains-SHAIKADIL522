@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.getElementById("form").addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -7,7 +6,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
 
   // Validation: check if fields are empty
   if (age === "" || name === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
